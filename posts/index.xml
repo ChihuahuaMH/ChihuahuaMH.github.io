@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Chihuahua's Heaven</title><link>https://ChihuahuaMH.github.io/posts/</link><description>Recent content in Posts on Chihuahua's Heaven</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 03 May 2022 00:44:13 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>[PowerShell] 使用 Oh My Posh 美化樣式</title><link>https://ChihuahuaMH.github.io/posts/powershell-%E4%BD%BF%E7%94%A8-oh-my-posh-%E7%BE%8E%E5%8C%96%E6%A8%A3%E5%BC%8F/</link><pubDate>Tue, 03 May 2022 00:44:13 +0800</pubDate><guid>https://ChihuahuaMH.github.io/posts/powershell-%E4%BD%BF%E7%94%A8-oh-my-posh-%E7%BE%8E%E5%8C%96%E6%A8%A3%E5%BC%8F/</guid><description>一直在追求打造美美的開發環境！在用過 Oh My Zsh 後，也想將 Windows 下的 PowerShell 美化，但出於各種原因遲遲未動工。
+直到這幾天偶然看到 Oh My Posh 的教學，也剛好沒什麼事情，便動起手來打造漂亮的 PowerShell 了！
+環境配置 Windows 11 PowerShell 7 安裝過程 安裝 Nerd Font 字型 為了可以正常顯示字型與 icon，可以在 Nerd Fonts 官網挑選自己喜歡的字型安裝。有些字型可以透過粉色按鈕預覽。
+私心推薦：
+FiraCode Nerd Font JetBrainsMono Nerd Font 修改字型 打開 PowerShell 的設定，並將字型改成剛剛下載的 NF 字型，完成後按儲存。 安裝 Oh My Posh 在 PowerShell 介面下輸入指令安裝：
+winget install oh-my-posh 安裝完成後，先在 Oh My Posh 的官網中挑選喜歡的主題。以我這邊為例，挑選的主題是 M365Princess ～
+接著在 PowerShell 中輸入指令，準備修改它的設定檔
+code $Profile 在打開的設定檔中貼上下面的指令：</description></item></channel></rss>
