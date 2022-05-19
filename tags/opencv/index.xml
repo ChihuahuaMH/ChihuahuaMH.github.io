@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenCV on Chihuahua's Blog</title><link>https://ChihuahuaMH.github.io/tags/opencv/</link><description>Recent content in OpenCV on Chihuahua's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 19 May 2022 19:35:58 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml"/><item><title>[OpenCV] 使用 cv2 的踩雷紀錄</title><link>https://ChihuahuaMH.github.io/posts/opencv-%E4%BD%BF%E7%94%A8-cv2-%E7%9A%84%E8%B8%A9%E9%9B%B7%E7%B4%80%E9%8C%84/</link><pubDate>Thu, 19 May 2022 19:35:58 +0800</pubDate><guid>https://ChihuahuaMH.github.io/posts/opencv-%E4%BD%BF%E7%94%A8-cv2-%E7%9A%84%E8%B8%A9%E9%9B%B7%E7%B4%80%E9%8C%84/</guid><description>最近接到一份作業，其中有一題是把圖片從彩圖轉為灰階。 第一時間是想到用 OpenCV，沒想到踩了好多雷哇！（自己最雷） 所以把這些問題紀錄一下，以後再遇到可以回來看看 🥲
+cv2.imread() 讀取圖片失敗 img = cv2.imread(&amp;#34;test.jpg&amp;#34;) cv2.imshow(&amp;#39;Original Image&amp;#39;, img) cv2.waitKey(0) 第一個問題是使用 cv2.imread() 讀取圖片，卻一直無法顯示出來……。
+利用 print(img) 顯示結果，如為 None 代表圖片沒有被讀入。此時有下列 2 種解法可以參考：
+1. 檢查路徑 含有中文的路徑
+路徑中包含中文會導致圖片讀取失敗，例如：&amp;quot;.\作業\test.jpg&amp;quot;。 盡量利用英文去命名資料夾和檔案，可以改成：&amp;quot;.\hw\test.jpg&amp;quot;
+\ 跳脫字元
+Windows 路徑的 \ 對 python 來說是跳脫字元，因此要再多加一個 \ 才能正確輸入路徑，例如：&amp;quot;.\\hw\\test.jpg&amp;quot;
+2. 圖片格式的問題 可以試著用其他軟體（PS 或 AI 之類的）開啟圖片看看會不會報錯，或是準備另外一張圖片試試看能不能被 cv2.imread() 讀入。
+注意！不要修改其副檔名，不然有可能導致錯誤。 折騰了一下午，最後竟是這個問題導致圖片無法讀入！ 感謝這篇文章教學，裡面這段還蠻好的，引用一下：
+字尾是一個標籤，表明檔案的型別和格式，至於檔案到底是不是該格式就另說了。有時候改了字尾名，檔案仍能被開啟（我遇到的情況），是因為檔案內容還有檔案頭，有些應用程式會根據檔案頭中的資訊來判斷檔案的格式（比如 windows 自帶的照片檢視器）而不是通過後綴名。所以切實有效的方式還是通過格式轉換軟體來轉換格式。
+cv2.imwrite() 無法存圖片 參考這篇文章的教學，cv2.imwrite() 保存圖片會返回 True 或是 False 的值，因此可以撰寫程式測試是否有保存成功：
+status = cv2.</description></item></channel></rss>
