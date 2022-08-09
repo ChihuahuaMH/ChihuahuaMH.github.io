@@ -9,4 +9,4 @@ Windows 路徑的 \ 對 python 來說是跳脫字元，因此要再多加一個 
 注意！不要修改其副檔名，不然有可能導致錯誤。 折騰了一下午，最後竟是這個問題導致圖片無法讀入！ 感謝這篇文章教學，裡面這段還蠻好的，引用一下：
 字尾是一個標籤，表明檔案的型別和格式，至於檔案到底是不是該格式就另說了。有時候改了字尾名，檔案仍能被開啟（我遇到的情況），是因為檔案內容還有檔案頭，有些應用程式會根據檔案頭中的資訊來判斷檔案的格式（比如 windows 自帶的照片檢視器）而不是通過後綴名。所以切實有效的方式還是通過格式轉換軟體來轉換格式。
 cv2.imwrite() 無法存圖片 參考這篇文章的教學，cv2.imwrite() 保存圖片會返回 True 或是 False 的值，因此可以撰寫程式測試是否有保存成功：
-status = cv2.</description></item></channel></rss>
+status = cv2.imwrite(&amp;#39;python_gray.png&amp;#39;,gray_img) print(&amp;#34;Image written to file-system : &amp;#34;,status) 以此檢查是否有成功保存。如果為 False，可以檢查一下：</description></item></channel></rss>

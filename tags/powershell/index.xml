@@ -5,4 +5,5 @@
 FiraCode Nerd Font JetBrainsMono Nerd Font 修改字型 打開 PowerShell 的設定，並將字型改成剛剛下載的 NF 字型，完成後按儲存。 安裝 Oh My Posh 在 PowerShell 介面下輸入指令安裝：
 winget install oh-my-posh 安裝完成後，先在 Oh My Posh 的官網中挑選喜歡的主題。以我這邊為例，挑選的主題是 M365Princess ～
 接著在 PowerShell 中輸入指令，準備修改它的設定檔
-code $Profile 在打開的設定檔中貼上下面的指令：</description></item></channel></rss>
+code $Profile 在打開的設定檔中貼上下面的指令：
+oh-my-posh init pwsh --config ~/.</description></item></channel></rss>
