@@ -1,1 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Chihuahua's Blog</title><link>https://ChihuahuaMH.github.io/tags/</link><description>Recent content in Tags on Chihuahua's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Wed, 26 Oct 2022 16:50:01 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Sumo</title><link>https://ChihuahuaMH.github.io/tags/sumo/</link><pubDate>Wed, 26 Oct 2022 16:50:01 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/sumo/</guid><description/></item><item><title>Git</title><link>https://ChihuahuaMH.github.io/tags/git/</link><pubDate>Wed, 10 Aug 2022 00:25:43 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/git/</guid><description/></item><item><title>GitHub</title><link>https://ChihuahuaMH.github.io/tags/github/</link><pubDate>Wed, 10 Aug 2022 00:25:43 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/github/</guid><description/></item><item><title>OpenCV</title><link>https://ChihuahuaMH.github.io/tags/opencv/</link><pubDate>Thu, 19 May 2022 19:35:58 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/opencv/</guid><description/></item><item><title>python</title><link>https://ChihuahuaMH.github.io/tags/python/</link><pubDate>Thu, 19 May 2022 19:35:58 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/python/</guid><description/></item><item><title>GitHub Actions</title><link>https://ChihuahuaMH.github.io/tags/github-actions/</link><pubDate>Tue, 10 May 2022 02:08:54 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/github-actions/</guid><description/></item><item><title>Hugo</title><link>https://ChihuahuaMH.github.io/tags/hugo/</link><pubDate>Tue, 10 May 2022 02:08:54 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/hugo/</guid><description/></item><item><title>Shell Script</title><link>https://ChihuahuaMH.github.io/tags/shell-script/</link><pubDate>Tue, 10 May 2022 02:08:54 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/shell-script/</guid><description/></item><item><title>powershell</title><link>https://ChihuahuaMH.github.io/tags/powershell/</link><pubDate>Tue, 03 May 2022 00:44:13 +0800</pubDate><guid>https://ChihuahuaMH.github.io/tags/powershell/</guid><description/></item><item><title>CI/CD</title><link>https://ChihuahuaMH.github.io/tags/ci/cd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ChihuahuaMH.github.io/tags/ci/cd/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on ChihuahuaMH</title>
+    <link>https://ChihuahuaMH.github.io/tags/</link>
+    <description>Recent content in Tags on ChihuahuaMH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 26 Oct 2022 16:50:01 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sumo</title>
+      <link>https://ChihuahuaMH.github.io/tags/sumo/</link>
+      <pubDate>Wed, 26 Oct 2022 16:50:01 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/sumo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://ChihuahuaMH.github.io/tags/git/</link>
+      <pubDate>Wed, 10 Aug 2022 00:25:43 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://ChihuahuaMH.github.io/tags/github/</link>
+      <pubDate>Wed, 10 Aug 2022 00:25:43 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenCV</title>
+      <link>https://ChihuahuaMH.github.io/tags/opencv/</link>
+      <pubDate>Thu, 19 May 2022 19:35:58 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/opencv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://ChihuahuaMH.github.io/tags/python/</link>
+      <pubDate>Thu, 19 May 2022 19:35:58 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://ChihuahuaMH.github.io/tags/github-actions/</link>
+      <pubDate>Tue, 10 May 2022 02:08:54 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://ChihuahuaMH.github.io/tags/hugo/</link>
+      <pubDate>Tue, 10 May 2022 02:08:54 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell Script</title>
+      <link>https://ChihuahuaMH.github.io/tags/shell-script/</link>
+      <pubDate>Tue, 10 May 2022 02:08:54 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/shell-script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://ChihuahuaMH.github.io/tags/powershell/</link>
+      <pubDate>Tue, 03 May 2022 00:44:13 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://ChihuahuaMH.github.io/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
