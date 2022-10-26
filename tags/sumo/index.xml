@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sumo on Chihuahua's Blog</title><link>https://ChihuahuaMH.github.io/tags/sumo/</link><description>Recent content in Sumo on Chihuahua's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Wed, 26 Oct 2022 16:50:01 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/tags/sumo/index.xml" rel="self" type="application/rss+xml"/><item><title>[Sumo] Hello SUMO!</title><link>https://ChihuahuaMH.github.io/posts/sumo-hello-sumo/</link><pubDate>Wed, 26 Oct 2022 16:50:01 +0800</pubDate><guid>https://ChihuahuaMH.github.io/posts/sumo-hello-sumo/</guid><description>這篇是參考官網 Hello SUMO 教學，以寫 xml 的方式建立路網模擬汽車行駛，加上一些些的補充說明。
+Introduction Sumo 中的 street network 是由兩個東西組成的：
+nodes（節點，也稱為 junctions） edges（邊，nodes 連接而成的） 本篇要建立的路網是兩條 street，需要 3 個 nodes 和 2 個 edges。下圖是簡單用 NETEDIT 模擬一下：
+在開始下面的步驟之前，先建立一個資料夾，全部的東西放在這個資料夾裡面才可以跑模擬。
+Nodes 首先要先建立 nodes，每個 node 都有各自的 x 軸 y 軸（代表該節點與原點的距離，以米為單位）和 id。
+先在剛才建立的資料夾內新增一個 hello.nod.xml 的檔案，並創建三個節點：
+&amp;lt;nodes&amp;gt; &amp;lt;node id=&amp;#34;1&amp;#34; x=&amp;#34;-250.0&amp;#34; y=&amp;#34;0.0&amp;#34; /&amp;gt; &amp;lt;node id=&amp;#34;2&amp;#34; x=&amp;#34;+250.0&amp;#34; y=&amp;#34;0.0&amp;#34; /&amp;gt; &amp;lt;node id=&amp;#34;3&amp;#34; x=&amp;#34;+500.0&amp;#34; y=&amp;#34;0.0&amp;#34; /&amp;gt; &amp;lt;/nodes&amp;gt; ＊node.xml 是 Sumo node files 的後綴
+Edges 接著把剛剛建立的節點連接起來！連接的方式很簡單，就是透過每個 node 的 id 作為 reference。</description></item></channel></rss>
