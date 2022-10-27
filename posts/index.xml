@@ -5,7 +5,21 @@
     <link>https://ChihuahuaMH.github.io/posts/</link>
     <description>Recent content in Posts on ChihuahuaMH</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 26 Oct 2022 16:50:01 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 23:12:45 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Sumo] Manhattan</title>
+      <link>https://ChihuahuaMH.github.io/posts/sumo-manhattan/</link>
+      <pubDate>Thu, 27 Oct 2022 23:12:45 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/posts/sumo-manhattan/</guid>
+      <description>這篇是參考官網 Manhattan 教學 做一點改變。官方那篇比較偷懶， 是用已經寫好的範例檔 manhattan.netgcfg 和 manhattan.jtrrcfg 生成 Manhattan Mobility Model（MMM），但如果要客製化自己的路網，總不能只依靠範例檔案吧！因此這篇是改成下指令的方式練習並去孰悉用到的工具。
+Creating the network 先看原本的 manhattan.netgcfg 作為生成參考：
+&amp;lt;grid_network&amp;gt; &amp;lt;grid value=&amp;#34;true&amp;#34;/&amp;gt; &amp;lt;grid.number value=&amp;#34;10&amp;#34;/&amp;gt; &amp;lt;/grid_network&amp;gt; &amp;lt;junctions&amp;gt; &amp;lt;no-turnarounds value=&amp;#34;true&amp;#34;/&amp;gt; &amp;lt;/junctions&amp;gt; 閱讀 netgenerate 的 docs 看看需要下哪些參數，依個人喜好去做一些調整：
+netgenerate -g --grid.number 6 --grid.length 300 --no-turnarounds -o manhattan.net.xml 成功後會有一個 manhattan.net.xml ，用 netedit 打開後長這樣子： 當然也可以用 netedit 畫，還有很多種方法都可以生成路網。
+Generating vehicles MMM 中的車輛根據指定的 turning ratios 隨機行駛，這個移動類型可以透過 jtrrouter 做到。
+jtrrouter 是根據 traffic volumes 和 turning ratios 計算可能使用的路線。 首先要先建立 flow 作為輸入去定義車輛的起點和開始時間。</description>
+    </item>
+    
     <item>
       <title>[Sumo] Hello SUMO!</title>
       <link>https://ChihuahuaMH.github.io/posts/sumo-hello-sumo/</link>
